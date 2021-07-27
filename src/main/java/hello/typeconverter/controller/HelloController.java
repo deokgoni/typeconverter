@@ -17,6 +17,7 @@ public class HelloController {
         String data = request.getParameter("data");//문자 타입으로 조회
         Integer intValue = Integer.valueOf(data);
         System.out.println("intValue = " + intValue);
+        System.out.println("intValue1 = " + intValue);
         return "ok";
     }
 
